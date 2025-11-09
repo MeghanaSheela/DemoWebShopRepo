@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Broswer got launched]]>
+    </line>
+    <line>
+      <![CDATA[Broswer got maximized]]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigated to Demo Web Shop]]>
+    </line>
+    <line>
+      <![CDATA[Logged to Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product added to the cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[second product added to the cart successfuly]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to shooping cart page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Address Details enterd successfully]]>
+    </line>
+    <line>
+      <![CDATA[shipping Address entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Shipping Method Selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Payment Method selected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Successfully continue the payment information]]>
+    </line>
+    <line>
+      <![CDATA[Order confirm successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Address page succesffully ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked delete button for an address]]>
+    </line>
+    <line>
+      <![CDATA[Confirmed delete alert]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[Broswer got Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-27T23:03:01 IST" name="DemoWebShopSuite" finished-at="2025-10-27T23:03:37 IST" duration-ms="35642">
+    <groups>
+    </groups>
+    <test started-at="2025-10-27T23:03:01 IST" name="EndToEndFlow" finished-at="2025-10-27T23:03:37 IST" duration-ms="35642">
+      <class name="tests.CartTestCheckout">
+        <test-method signature="checkoutProduct()[pri:0, instance:tests.CartTestCheckout@7ce69770]" started-at="2025-10-27T23:03:09 IST" name="checkoutProduct" finished-at="2025-10-27T23:03:18 IST" duration-ms="9343" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to shooping cart page successfully]]>
+            </line>
+            <line>
+              <![CDATA[Address Details enterd successfully]]>
+            </line>
+            <line>
+              <![CDATA[shipping Address entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Shipping Method Selected successfully]]>
+            </line>
+            <line>
+              <![CDATA[Payment Method selected successfully]]>
+            </line>
+            <line>
+              <![CDATA[Successfully continue the payment information]]>
+            </line>
+            <line>
+              <![CDATA[Order confirm successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+      </class> <!-- tests.CartTestCheckout -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="toLaunch(java.lang.String)[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-10-27T23:02:55 IST" name="toLaunch" finished-at="2025-10-27T23:03:01 IST" duration-ms="5976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Broswer got launched]]>
+            </line>
+            <line>
+              <![CDATA[Broswer got maximized]]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigated to Demo Web Shop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunch -->
+        <test-method signature="login()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-10-27T23:03:01 IST" name="login" finished-at="2025-10-27T23:03:04 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged to Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="toClose()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-10-27T23:03:37 IST" name="toClose" finished-at="2025-10-27T23:03:37 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Broswer got Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toClose -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AddressTest">
+        <test-method signature="AddressRemove()[pri:0, instance:tests.AddressTest@1750fbeb]" started-at="2025-10-27T23:03:18 IST" name="AddressRemove" finished-at="2025-10-27T23:03:36 IST" duration-ms="17498" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Address page succesffully ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked delete button for an address]]>
+            </line>
+            <line>
+              <![CDATA[Confirmed delete alert]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddressRemove -->
+      </class> <!-- tests.AddressTest -->
+      <class name="tests.ProductSearchTest">
+        <test-method signature="addProductsToCart()[pri:0, instance:tests.ProductSearchTest@7ce026d3]" started-at="2025-10-27T23:03:04 IST" name="addProductsToCart" finished-at="2025-10-27T23:03:09 IST" duration-ms="5412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product added to the cart successfully]]>
+            </line>
+            <line>
+              <![CDATA[second product added to the cart successfuly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductsToCart -->
+      </class> <!-- tests.ProductSearchTest -->
+      <class name="tests.LogoutTest">
+        <test-method signature="logout()[pri:0, instance:tests.LogoutTest@5b247367]" started-at="2025-10-27T23:03:36 IST" name="logout" finished-at="2025-10-27T23:03:37 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- EndToEndFlow -->
+  </suite> <!-- DemoWebShopSuite -->
+</testng-results>
