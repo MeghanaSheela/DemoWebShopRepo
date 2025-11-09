@@ -56,12 +56,12 @@
       <![CDATA[Broswer got Closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-27T23:03:01 IST" name="DemoWebShopSuite" finished-at="2025-10-27T23:03:37 IST" duration-ms="35642">
+  <suite started-at="2025-11-09T23:36:38 IST" name="DemoWebShopSuite" finished-at="2025-11-09T23:38:03 IST" duration-ms="84646">
     <groups>
     </groups>
-    <test started-at="2025-10-27T23:03:01 IST" name="EndToEndFlow" finished-at="2025-10-27T23:03:37 IST" duration-ms="35642">
+    <test started-at="2025-11-09T23:36:38 IST" name="EndToEndFlow" finished-at="2025-11-09T23:38:03 IST" duration-ms="84646">
       <class name="tests.CartTestCheckout">
-        <test-method signature="checkoutProduct()[pri:0, instance:tests.CartTestCheckout@7ce69770]" started-at="2025-10-27T23:03:09 IST" name="checkoutProduct" finished-at="2025-10-27T23:03:18 IST" duration-ms="9343" status="PASS">
+        <test-method signature="checkoutProduct()[pri:0, instance:tests.CartTestCheckout@7ce69770]" started-at="2025-11-09T23:36:48 IST" name="checkoutProduct" finished-at="2025-11-09T23:36:57 IST" duration-ms="9547" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to shooping cart page successfully]]>
@@ -88,7 +88,7 @@
         </test-method> <!-- checkoutProduct -->
       </class> <!-- tests.CartTestCheckout -->
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="toLaunch(java.lang.String)[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-10-27T23:02:55 IST" name="toLaunch" finished-at="2025-10-27T23:03:01 IST" duration-ms="5976" status="PASS">
+        <test-method is-config="true" signature="toLaunch(java.lang.String)[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-11-09T23:36:26 IST" name="toLaunch" finished-at="2025-11-09T23:36:38 IST" duration-ms="12032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,14 +108,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- toLaunch -->
-        <test-method signature="login()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-10-27T23:03:01 IST" name="login" finished-at="2025-10-27T23:03:04 IST" duration-ms="2312" status="PASS">
+        <test-method signature="login()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-11-09T23:36:38 IST" name="login" finished-at="2025-11-09T23:36:41 IST" duration-ms="2329" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logged to Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="toClose()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-10-27T23:03:37 IST" name="toClose" finished-at="2025-10-27T23:03:37 IST" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="toClose()[pri:0, instance:tests.LoginTest@2767e23c]" started-at="2025-11-09T23:38:03 IST" name="toClose" finished-at="2025-11-09T23:38:04 IST" duration-ms="404" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Broswer got Closed]]>
@@ -124,7 +124,7 @@
         </test-method> <!-- toClose -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.AddressTest">
-        <test-method signature="AddressRemove()[pri:0, instance:tests.AddressTest@1750fbeb]" started-at="2025-10-27T23:03:18 IST" name="AddressRemove" finished-at="2025-10-27T23:03:36 IST" duration-ms="17498" status="PASS">
+        <test-method signature="AddressRemove()[pri:0, instance:tests.AddressTest@1750fbeb]" started-at="2025-11-09T23:36:57 IST" name="AddressRemove" finished-at="2025-11-09T23:38:01 IST" duration-ms="63579" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to Address page succesffully ]]>
@@ -139,7 +139,7 @@
         </test-method> <!-- AddressRemove -->
       </class> <!-- tests.AddressTest -->
       <class name="tests.ProductSearchTest">
-        <test-method signature="addProductsToCart()[pri:0, instance:tests.ProductSearchTest@7ce026d3]" started-at="2025-10-27T23:03:04 IST" name="addProductsToCart" finished-at="2025-10-27T23:03:09 IST" duration-ms="5412" status="PASS">
+        <test-method signature="addProductsToCart()[pri:0, instance:tests.ProductSearchTest@7ce026d3]" started-at="2025-11-09T23:36:41 IST" name="addProductsToCart" finished-at="2025-11-09T23:36:48 IST" duration-ms="6976" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Product added to the cart successfully]]>
@@ -151,7 +151,7 @@
         </test-method> <!-- addProductsToCart -->
       </class> <!-- tests.ProductSearchTest -->
       <class name="tests.LogoutTest">
-        <test-method signature="logout()[pri:0, instance:tests.LogoutTest@5b247367]" started-at="2025-10-27T23:03:36 IST" name="logout" finished-at="2025-10-27T23:03:37 IST" duration-ms="967" status="PASS">
+        <test-method signature="logout()[pri:0, instance:tests.LogoutTest@5b247367]" started-at="2025-11-09T23:38:01 IST" name="logout" finished-at="2025-11-09T23:38:03 IST" duration-ms="2084" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout successfully]]>
